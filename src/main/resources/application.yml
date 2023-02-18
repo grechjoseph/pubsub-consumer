@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        pub-sub-jg-topic-channel-input:
+          destination: jg-topic
+          group: jg-topic-consumer
+#          pubsub.subscriptions.consume
+#          pubsub.subscriptions.get
+#          pubsub.topics.get
